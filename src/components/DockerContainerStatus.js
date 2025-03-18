@@ -17,7 +17,7 @@ const DockerContainerStatus = () => {
 
     return (
         <div>
-            <h1>Docker Container Statuses</h1>
+            <h1 data-testid="container-header">Docker Container Statuses</h1>
             <ul>
                 {statuses.map((status, index) => (
                     <li key={index}>
