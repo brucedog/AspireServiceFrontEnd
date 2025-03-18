@@ -1,5 +1,5 @@
 import React from 'react';
-import DockerContainerStatus from './DockerContainerStatus';
+import DockerContainerStatus from './components/DockerContainerStatus';
 import './App.css';
 
 function App() {
